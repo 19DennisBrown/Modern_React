@@ -1,10 +1,18 @@
-import React from 'react'
-import './App.css'
+
+
+import './index.css'
+import Navbar from './Navbar'
+import Home from './Home'
+
+
 const App = () => {
   return (
-    <div className="App">
-      What do we have here?
-    </div>
+    <main className="App" style={{}}>
+      <Navbar/>
+      <section className="content">
+        <Home/>
+      </section>
+    </main>
   )
 }
 
