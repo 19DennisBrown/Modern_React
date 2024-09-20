@@ -1,5 +1,7 @@
 
 import {useState} from 'react'
+import BlogList from './Blog_list';
+
 const  Home = () => {
 
   const [blogs, setBlogs] = useState([
@@ -9,14 +11,7 @@ const  Home = () => {
   ])
   return ( 
     <main className="home">
-       {blogs.map((blog)=>(
-        <section className='blog-preview' key={blog.id}>
-          <h2>{blog.title}</h2>
-          <p>
-            {blog.body}
-          </p>
-        </section>
-       ))}
+      <BlogList blogs={blogs.filter((blog)=>blog.author === 'mario')} />
     </main>
    );
 }
