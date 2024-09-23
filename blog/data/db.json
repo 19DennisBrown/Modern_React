@@ -1,35 +1,28 @@
-
 {
-"blogs" : [
-  {
-      "id": 1,
-      "title": "The Future of AI",
-      "body": "Artificial Intelligence is rapidly evolving and impacting various sectors...",
-      "author": "John Doe"
-  },
-  {
-      "id": 2,
+  "blogs": [
+    {
+      "id": "2",
       "title": "Sustainable Living",
       "body": "Sustainable living involves making lifestyle choices that reduce your environmental impact...",
       "author": "Jane Smith"
-  },
-  {
-      "id": 3,
+    },
+    {
+      "id": "3",
       "title": "Health and Wellness",
       "body": "Maintaining good health requires a balance of physical activity, nutrition, and mental well-being...",
       "author": "David Brown"
-  },
-  {
-      "id": 4,
+    },
+    {
+      "id": "4",
       "title": "Technology Trends in 2024",
       "body": "The year 2024 is expected to bring innovations in quantum computing, 5G, and augmented reality...",
       "author": "Emily Johnson"
-  },
-  {
-      "id": 5,
+    },
+    {
+      "id": "5",
       "title": "Personal Finance Tips",
       "body": "Managing your personal finances effectively requires budgeting, saving, and investing wisely...",
       "author": "Michael Lee"
-  }
-]
+    }
+  ]
 }

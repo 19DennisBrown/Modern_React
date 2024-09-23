@@ -1,6 +1,6 @@
 
 
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return ( 
     <main className="navbar">
@@ -8,8 +8,8 @@ const Navbar = () => {
         blog App
       </h1>
       <section className="links">
-        <a href="/">home</a>
-        <a href="/create">new blog</a>
+        <Link to="/">home</Link>
+        <Link to="/create">+ new blog</Link>
       </section>
     </main>
    );
